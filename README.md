@@ -9,7 +9,7 @@ Supported stories
 * [I Shall Seal the Heavens](http://www.wuxiaworld.com/issth-index/)
 * [Martial God Asura](http://www.wuxiaworld.com/mga-index/)
 * [Stellar Transformations](http://www.wuxiaworld.com/st-index/)
-
+* [Renegade Immortal](http://wuxiaworld.com/renegade-index/)
 A quick Python scraper for wuxiaworld.com using Requests & BeautifulSoup.
 Unlike the EPUBs floating around, the ones that come out of here have correct
 chapter breaks and hyperlinked table of contents.
@@ -82,7 +82,7 @@ Download books 5-7 of Stellar Transformations and make EPUBs:
 
 Known Bugs
 ----------
-* None (please report them!)
+* Script breaks on unfinished Books in the index (atleast it does on Renegade Immortal)
 
 Future Work
 -----------
