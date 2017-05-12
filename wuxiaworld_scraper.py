@@ -117,7 +117,9 @@ def process_chapter_page(ch_url, ch_num, out, debug):
         elif p.name == "p":
             out.write(unicode(p))
             out.write("\n")
-
+    footnotes = ch_soup.find('div', {'class': 'footnotes'})
+    if footnotes:
+        out.write(str(footnotes.find('ol')))
 
 def run_pandoc_on(filenames):
     ''' Runs pandoc on the resulting html files '''
@@ -146,7 +148,7 @@ def scrape(url, books, delay, skip_epub, debug):
     fnames = []
 
     # book names are between <strong> tags
-    for elem in start.find_all_next(['strong', 'b']):
+    for elem in start.find_all_next(['strong', 'b', 'span']):
 
         # Book: Coiling Dragon/Stellar Transformations
         # Volume: Against the Gods, MArtial God Asura
