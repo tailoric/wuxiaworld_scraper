@@ -9,7 +9,7 @@ Supported stories
 * [I Shall Seal the Heavens](http://www.wuxiaworld.com/issth-index/)
 * [Martial God Asura](http://www.wuxiaworld.com/mga-index/)
 * [Stellar Transformations](http://www.wuxiaworld.com/st-index/)
-* [Renegade Immortal](http://wuxiaworld.com/renegade-index/)
+* [Renegade Immortal](http://wuxiaworld.com/renegade-index/)^[1]
 
 
 A quick Python scraper for wuxiaworld.com using Requests & BeautifulSoup.
@@ -95,3 +95,6 @@ Future Work
 * Support other stories on wuxiaworld.
 * Support other sites?
 
+
+----
+[1] You need to add a span element to line 151 at the moment to work with Renegade Immortal, it is ommited for now because of problems with other books
