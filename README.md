@@ -9,7 +9,7 @@ Supported stories
 * [I Shall Seal the Heavens](http://www.wuxiaworld.com/issth-index/)
 * [Martial God Asura](http://www.wuxiaworld.com/mga-index/)
 * [Stellar Transformations](http://www.wuxiaworld.com/st-index/)
-* [Renegade Immortal](http://wuxiaworld.com/renegade-index/)^[1]
+* [Renegade Immortal](http://wuxiaworld.com/renegade-index/)<sup>1</sup>
 
 
 A quick Python scraper for wuxiaworld.com using Requests & BeautifulSoup.
