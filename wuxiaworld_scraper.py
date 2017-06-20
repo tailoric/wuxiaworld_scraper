@@ -148,7 +148,7 @@ def scrape(url, books, delay, skip_epub, debug):
     fnames = []
 
     # book names are between <strong> tags
-    for elem in start.find_all_next(['strong', 'b', 'span']):
+    for elem in start.find_all_next(['strong', 'b']): #only add span (for example Renegade Immortal) elements when needed or else books get downloaded twice
 
         # Book: Coiling Dragon/Stellar Transformations
         # Volume: Against the Gods, MArtial God Asura
